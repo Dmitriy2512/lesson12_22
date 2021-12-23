@@ -1,0 +1,196 @@
+
+.mama div{
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+.deti1{
+    position: static;
+    left: 20px;
+    top: 10px;
+}
+.deti2{
+    position: relative;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    top: 10px;
+    z-index: 1;
+}
+.deti3{
+    position: relative;
+    left: 0;
+    right: 13px;
+    bottom: 100px;
+    top: 0;
+}
+.deti4{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti5{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti6{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti7{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti8{
+    position: fixed;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti9{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
+.deti10{
+    position: static;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+}
+.deti11{
+    position: sticky;
+    left: 400px;
+    top: 800px;
+}
+.deti12{
+    position: relative;
+    left: 1000px;
+    top: 5px;
+}
+.deti13{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.pencil{
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    height: 600px;
+    background-color: chocolate;
+    border-radius: 10px;
+}
+.p1{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background-color: saddlebrown;
+    bottom: 590px;
+    clip-path: polygon(50% 0%, 100% 90%, 100% 100%, 0% 100%);
+}
+.grifel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.p2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: darkblue;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation: name1 3s linear infinite;
+}
+.p3{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: rgb(27, 27, 146);
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation: name1 3s linear infinite;
+}
+.p4{
+    position: absolute;
+    left: 52px;
+    top: 0;
+    width: 26px;
+    height: 100%;
+    background-color: rgb(9, 9, 228);
+    border-radius: 25px 25px 0 0;
+    border: 1px solid black;
+    animation: name1 3s linear infinite;
+}
+@keyframes name1{
+    0%{
+        background-color: darkblue;
+        box-shadow: inset 2px 2px 3px 2px blue;
+    }
+    50%{
+        background-color: blueviolet;
+        box-shadow: inset 2px 2px 3px 2px blueviolet;
+    }
+    100%{
+        background-color: darkblue;
+        box-shadow: inset 2px 2px 3px 2px blue;
+    }
+}
+.instagram{
+    width: 450px;
+    height: 450px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    top: 400px;
+    border: none;
+    border-radius: 120px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.instagram_box{
+    margin: 45px auto;
+    width: 310px;
+    height: 310px;
+    border: 30px solid white;
+    border-radius: 120px;
+}
+.instagram_box2{
+    margin: 0px auto;
+    width: 140px;
+    height: 140px;
+    border: 35px solid white;
+    border-radius: 100%;
+}
+.instagram_circle{
+    margin: 18px 0px 0px 230px;
+    width: 0px;
+    height: 0px;
+    border: 20px solid white;
+    border-radius: 100%;
+}
+
